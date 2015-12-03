@@ -1,4 +1,4 @@
-require 'aws-sdk'
+require 'aws-sdk-v1'
 
 require 's3_rails/s3'
 require 's3_rails/resolver'

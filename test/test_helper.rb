@@ -7,7 +7,7 @@ ENV["RAILS_ENV"] = "test"
 require File.expand_path("../dummy/config/environment.rb",  __FILE__)
 require "rails/test_help"
 require 's3_rails'
-require 'aws-sdk'
+require 'aws-sdk-v1'
 
 Rails.backtrace_cleaner.remove_silencers!
 
